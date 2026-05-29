@@ -1,6 +1,6 @@
-# generated outputs
-figures/
-results/
+# generated outputs — committed for portfolio visibility
+# figures/
+# results/
 
 # Python
 __pycache__/
