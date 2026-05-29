@@ -1,0 +1,24 @@
+# generated outputs
+figures/
+results/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# environments
+.venv/
+venv/
+.env
+
+# editors
+.vscode/
+.idea/
+
+# data cache (TDC downloads)
+data/

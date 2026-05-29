@@ -14,9 +14,6 @@ The paper's encoder widths: filters go 32 -> 64 -> 96, with drug kernel size 4
 and protein kernel size 8 (proteins are longer, wider receptive field helps).
 FC block: 1024 -> 1024 -> 512 -> 1, dropout 0.1 between FC layers.
 
-NOTE TO BUILDER: the forward() bodies are intentionally left for you to fill in
-where marked with TODO. Everything is wired so that once you implement the two
-encoders and the head, training runs. This is the part worth doing yourself.
 """
 
 import torch
